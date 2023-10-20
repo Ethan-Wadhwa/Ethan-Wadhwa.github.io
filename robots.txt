@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://ethan-wadhwa.github.io/sitemap.xml
