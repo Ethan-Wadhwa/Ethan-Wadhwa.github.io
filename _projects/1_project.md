@@ -39,10 +39,10 @@ The mirror and hinge were the two relatively simple custom pieces designed for t
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/fts_cage_sw_1.jpg" title="FTS cage design" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/fts_cage_sw_1.jpg" title="FTS cage design" class="rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/fts_mirror_sw_1.jpg" title="FTS adjustable mirror closeup" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/fts_mirror_sw_1.jpg" title="FTS adjustable mirror closeup" class="rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
