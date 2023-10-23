@@ -54,7 +54,7 @@ With this design, I had two main support beams with a custom plate to attach the
 
 Below are images of the beam mapper design as well as the results of one of the solidworks simulations I ran of the custom plate to verify it met the safety criteria of usage in this system.
 
-<div class="row justify-content-sm-center">
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/beam_mapper_sw_2.jpg" title="Beam Mapper Mount" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -62,7 +62,7 @@ Below are images of the beam mapper design as well as the results of one of the 
         {% include figure.html path="assets/img/beam_mapper_sw_1.jpg" title="With BM attached" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="row justify-content-sm-center">
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/beam_mapper_cable_management.jpg" title="Cable Management" class="img-fluid rounded z-depth-1" %}
     </div>
