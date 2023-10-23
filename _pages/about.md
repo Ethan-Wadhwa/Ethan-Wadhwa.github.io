@@ -14,10 +14,10 @@ profile:
     <a href="https://www.linkedin.com/in/ethan-wadhwa"> linkedin.com/in/ethan-wadhwa/ </a>
 
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
 Hello! I am an aspiring Autonomous Systems and Controls engineer from Denver, Colorado. I graduated from the University of California San Diego with a Bachelors of Science in Astrophysics and a minor in Mechanical and Aerospace Engineering. I am deeply interested in researching aerospace system simulation, satellite and guidance system hardware design, and space system navigation control. I have experience working with hardware design from my time working as a research assistant for Simon's Observatory and have software experience from various class projects. Feel free to check out my projects page to see some of what I have worked on!
