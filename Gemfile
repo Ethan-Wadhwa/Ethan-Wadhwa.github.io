@@ -5,7 +5,7 @@ group :jekyll_plugins do
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
     gem 'jekyll-email-protect'
-    #gem 'jekyll-feed'
+    gem 'jekyll-feed'
     gem 'jekyll-get-json'
     gem 'jekyll-imagemagick'
     gem 'jekyll-jupyter-notebook'
@@ -22,6 +22,6 @@ group :jekyll_plugins do
     gem 'webrick'
 end
 group :other_plugins do
-    #gem 'feedjira'
+    gem 'feedjira'
     gem 'httparty'
 end
