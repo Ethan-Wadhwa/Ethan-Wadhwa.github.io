@@ -61,6 +61,8 @@ Below are images of the beam mapper design as well as the results of one of the 
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/beam_mapper_sw_1.jpg" title="With BM attached" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/beam_mapper_cable_management.jpg" title="Cable Management" class="img-fluid rounded z-depth-1" %}
     </div>
