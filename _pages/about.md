@@ -9,9 +9,10 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>ewadhwa@ucsd.edu</p>
-    <p>github.com/Ethan-Wadhwa/p>
-    <p>www.linkedin.com/in/ethan-wadhwa/</p>
+    ewadhwa@ucsd.edu
+    <a href="https://github.com/Ethan-Wadhwa"> github.com/Ethan-Wadhwa/ </a>
+    <a href="https://www.linkedin.com/in/ethan-wadhwa"> linkedin.com/in/ethan-wadhwa/ </a>
+
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
