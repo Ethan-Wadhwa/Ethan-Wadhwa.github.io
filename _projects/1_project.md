@@ -19,17 +19,17 @@ All three test systems needed to be mounted on top of a T-slot 'Cage' that could
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/SO_img_1.heic" title="SO image 1" class="heic-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/SO_img_1.jpg" title="SO image 1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/SO_img_2.heic" title="SO image 2" class="heic-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/SO_img_2.jpg" title="SO image 2" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/SO_img_3.heic" title="SO image 3" class="heic-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/SO_img_3.jpg" title="SO image 3" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Pictures of test equipment mounted above the aperture of the telescope as tested in lab. Left - beam mapper, Middle - FTS, Right - FTS
+    Pictures of test equipment mounted above the aperture of the telescope as tested in lab. Left - FTS, Middle - LN2 Trap, Right - Beam Mapper
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
