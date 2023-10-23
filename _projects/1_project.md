@@ -32,26 +32,40 @@ All three test systems needed to be mounted on top of a T-slot 'Cage' that could
 The work I did designing the mounts for the test equipment involved iterating and simulating a series of designs using SOLIDWORKs. For the LN2 trap and Beam Mapper, the mounting systems were made of several custom designed aluminum plates and a series of T-slot beams to keep the weight of the test equipment distributed evenly to keep them stable and areas below the suspended load safe during the testing process.
 For for FTS, I had to design a hanging cage that could move laterally as well as have an adjustable mirror to specifically adjust the outgoing angle of the light from the FTS.
 
+With the FTS, due to the complexity of the simulation and relative light weight of the system (FTS  ~ 70lbs, cage ~60 lbs), the design was based more around functionality and ability to move various components without any electronics as the FTS was to heavy for the Beam Mapper linear actuator system.
+The design is made up of several main parts, the linear stages that mounted to the top of the T-slot beams, the cage that suspends the FTS below the beams and above the telescope, a mount to keep the light source in front of the FTS entrance but around the chopper blade, and an adjustable mirror to change the angle which the FTS outputs the light into the telescope.
+This resulted in the design seen below, which was the implemented after a series of iterations due to a failed magnet in the FTS preventing a simpler configuration.
+The mirror and hinge were the two relatively simple custom pieces designed for the FTS mounting, with all other parts being ordered from McMaster Carr and built by me at UCSD.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/fts_cage_sw_1.jpg" title="FTS cage design" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+            {% include figure.html path="assets/img/fts_mirror_sw_1.jpg" title="FTS adjustable mirror closeup" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    FTS Solidworks final design (left) and closeup of the FTS exit aperture and adjustable mirror jig (right)
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+For the Beam Mapper, I had two tasks as the linear actuator system had already been designed and a graduate student was working on the control system for it. My job was to create a simple system to mount the Beam Mapper to the T-slot cage to suspend it above the telescope and to create a simple cable management system to run wires to the necessary parts of the beam mapping system.
+With this design, I had two main support beams with a custom plate to attach the linear actuators to the support beams. For the cable management system, I found some cable carriers and designed custom mounting pieces to connect them to the linear actuator and route the cables simply and efficiently across the whole range of motion of the beam mapper.
 
+Below are images of the beam mapper design as well as the results of one of the solidworks simulations I ran of the custom plate to verify it met the safety criteria of usage in this system.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/beam_mapper_sw_2.jpg" title="Beam Mapper Mount" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/beam_mapper_sw_1.jpg" title="With BM attached" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/beam_mapper_cable_management.jpg" title="Cable Management" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/beam_mapper_custom_sim.jpg" title="Beam Mapper Sim" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
