@@ -10,10 +10,10 @@ related_publications:
 
 During this project, I designed mounting equipment to mount a series of test equipment for the final phases of optical testing of the Small Aperature Telescope being assembled at UCSD. This telescope is studying the Cosmic Microwave Background (CMB) and has an extremely sensitive detector array as the CMB is very faint and had precise polarizations of which Simon's Observatory is attempting to quantify.
 
-There were three main test systems I designed mounting equipment for:
-1: A beam mapper which utilizes a small heat source and spinning 'chopper' blade to shine a thin beam at a modulated frequency to precisely test that each of the ~10,000 pixels on the detector array.
-2: A Fourier Transform System (FTS) used to simulate light from an astronomical source to test the readout system as well as constrain the band widths and ensure that all necessary wavelengths can be observed.
-3: A LN2 cold load to test the detector's bandwidth by observing a blackbody with emissions peaking at the same temperature as the Cosmic Microwave Background.
+There were three main test systems I designed mounting equipment for.
+1st, a beam mapper which utilizes a small heat source and spinning 'chopper' blade to shine a thin beam at a modulated frequency to precisely test that each of the ~10,000 pixels on the detector array.
+2nd, a Fourier Transform System (FTS) used to simulate light from an astronomical source to test the readout system as well as constrain the band widths and ensure that all necessary wavelengths can be observed.
+3rd, a LN2 cold load to test the detector's bandwidth by observing a blackbody with emissions peaking at the same temperature as the Cosmic Microwave Background.
 
 All three test systems needed to be mounted on top of a T-slot 'Cage' that could be locked in place around the telescope detector. By mounting the test equipment above the telescope in this fashion, we could precisely test the detector array in a controlled setting and shine the light sources directly downward onto the detector arrays.
 
