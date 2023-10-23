@@ -5,7 +5,4 @@ title: CV
 nav: true
 nav_order: 3
 cv_pdf: EthanWadhwaCV100123.pdf
-description:
-toc:
-  sidebar: left
 ---
