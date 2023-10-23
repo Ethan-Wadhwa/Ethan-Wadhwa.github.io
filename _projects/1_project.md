@@ -38,11 +38,11 @@ This resulted in the design seen below, which was the implemented after a series
 The mirror and hinge were the two relatively simple custom pieces designed for the FTS mounting, with all other parts being ordered from McMaster Carr and built by me at UCSD.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/fts_cage_sw_1.jpg" title="FTS cage design" class="rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/fts_cage_sw_1.jpg" title="FTS cage design" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/fts_mirror_sw_1.jpg" title="FTS adjustable mirror closeup" class="rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/fts_mirror_sw_1.jpg" title="FTS adjustable mirror closeup" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
