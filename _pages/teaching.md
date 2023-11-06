@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /courses/
-title: courses
-description: Materials for courses I took. Replace this text with your description.
+title: Courses
+description: College Courses and Descriptions
 nav: true
 nav_order: 2
 ---

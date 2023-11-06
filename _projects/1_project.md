@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Simon's Observatory
+title: Simon's Observatory 1
 description: Test Equipment Design Projects
 img: assets/img/sat_proj_pic.webp
 importance: 1
@@ -71,6 +71,9 @@ Below are images of the beam mapper design as well as the results of one of the 
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Design images and Solidworks Simulation results of Beam Mapper Simulation
 </div>
+
+Overall, throughout this project I gained immense experience with Solidworks Design, Simulation, and iteration and
+was able to advance my design skill significantly. All of my test equipment worked well and were used to successfully hold test equipment to validate the SAT for shipment to Chile.
 

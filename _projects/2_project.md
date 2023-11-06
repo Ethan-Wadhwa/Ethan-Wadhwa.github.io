@@ -1,26 +1,16 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: Simon's Observatory 2
+description: Shipping Reinforcements Design and Simulation
 img: assets/img/3.jpg
 importance: 2
 category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Shipping jig and plate design project for the shipment of the Simon's Observatory Small Aperture Telescope (SAT) from UCSD to the Atacama Desert in Chile.0
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
+The goal of this project was twofold, first to reinforce
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
