@@ -2,11 +2,31 @@
   type: map
   contents:
     - name: Full Name
-      value: Ethan Wadhwa
+      value: Ethan Jacob Wadhwa
     - name: Date of Birth
       value: 18th of April 2001
     - name: Languages
       value: English
+
+- title: Research Skills and Qualifications
+  type: nested_list
+  contents:
+    - title: Solidworks
+      items:
+        - Solidworks 3D Design and Assembly
+        - Technical Drawings for Manufacturing
+        - FEA Simulation and Non-Linear Stress Analysis
+    - title: Coding Skills
+      items:
+        - Python - Proficient in Data Analysis & Plotting
+        - MATLAB - Adept in Data Analysis, Plotting, and Proficient in Simulation
+    - title: General
+      items:
+        - Machine Shop Tools and Safety
+        - Simple Metal Manufacturing
+        - Circuit Constructuon and Object Oriented Design
+        - Optical System Observation Techniques
+        - Proactive and Reactive Risk Management
 
 - title: Education
   type: time_table
@@ -15,18 +35,9 @@
       institution: University of California San Diego
       year: 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Major in Physics w/ Specialization in Astrophysics
+        - Minor in Mechanical and Aerospace Engineering
+
 
 - title: Experience
   type: time_table
@@ -35,12 +46,21 @@
       institution: Simon's Observatory at UCSD
       year: 2021-2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Designed and simulated a variety of components using SolidWorks
+        - Designed components for test systems, optical components, and safety reinforcements
+        - Developed procedures for safe installations and disassembly
+        - Assisted in assembly and repair of experimental telescope system
+        - Built small electronics and assembled cable management systems
+        - Manufactured and machined small components for shipping and test systems
+        - Collaborated with grad students at UCSD and UChicago for design work and assembly
+    - title: Instructor
+      institution: Coding with Kids
+      year: 2019
+      description:
+        - Taught students age 8-14 basic computer and coding skills
+        - Remained patient in high stress environment
+        - Organized and adapted curriculum to meet student learning speeds and needs
+
 
 - title: Volunteer Experience
   type: time_table
@@ -49,19 +69,18 @@
       items: 
         - Martial Arts Instructor
     - year: 2022-23
-      items: 
-        - Head of Risk Management for AEPi UCSD
+      items:
+        - Head of Risk Management for AEPi at UCSD
 
 - title: Academic Interests
   type: nested_list
   contents:
     - title: Space System Control
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Guidance and Navigation Controls
+        - Simulation and optimization of space system components
+        - Safety of space systems
+    - title: Mechanical Engineering
       items:
-        - Description 1.
-        - Description 2.
-
-
+        - Solidworks design and translation to CNC and 3D printing
+        - Robotics design and optimization
