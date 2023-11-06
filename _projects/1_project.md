@@ -4,7 +4,7 @@ title: Simon's Observatory 1
 description: Test Equipment Design Projects
 img: assets/img/sat_proj_pic.webp
 importance: 1
-category: work
+category: Work
 related_publications:
 ---
 
