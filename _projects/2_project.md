@@ -4,7 +4,7 @@ title: Simon's Observatory 2
 description: Shipping Reinforcements Design and Simulation
 img: assets/img/3.jpg
 importance: 2
-category: work
+category: Work
 giscus_comments: true
 ---
 

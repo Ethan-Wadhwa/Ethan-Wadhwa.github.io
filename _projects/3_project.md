@@ -4,6 +4,6 @@ title: Asteroid Tracking Project
 description: Class project for observational astrophysics course PHYS 164 at UCSD
 img: assets/img/Flatfield_lab2.JPG
 redirect: ethan-wadhwa.github.io/assets/pdf/Wadhwa_Ethan_PHYS164_Lab2Report.pdf
-importance: 3
+importance: 1
 category: Class Projects
 ---
