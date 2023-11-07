@@ -254,3 +254,133 @@ equal to:
 
 We can see the need for the flatfield and bias correction here as one can clearly see the impact of
 the pixel intensities causing a large dispersion in intensity values across the detector.
+
+<h2> 4 Data Analysis & Modeling </h2>
+<h4> 4.1 USB2000 Spectrometer Data </h4>
+For the USB2000 spectrometer, we choose the Hydrogen arc lamp to calibrate the instrument,
+and used the average of the 249 available hydrogen datasets for the highest accuracy
+calculations.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/fig7_lab2.JPG" title="fig7" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 7: (top) Averaged hydrogen spectrum across wavelengths with centroids. (bottom) Least Squares fit for hydrogen files from USB2000.
+</div>
+
+The final fit parameters of the pixel number to wavelength conversion for the USB2000 using
+the hydrogen arc lamp were:
+
+𝑀 = 1. 125 ± 0. 021,
+𝑐 =− 64. 820 ± 68. 573
+
+Where our variance σ = 52. 932 which was used to calculate the uncertainty in these constants.
+
+<h4> 4.2 KAST Sprectral Data </h4>
+The chosen KAST files to analyze the spectral emissions were b160.fits (Fiege) and b156.fits
+(BD+15233). To be able to analyze these astronomical frames, we must first calibrate the dataset
+from pixels to wavelengths. The KAST file b100.fits is the spectral emissions of an arc lamp
+recorded by the KAST spectrograph, so using the centroiding and least linear squares methods
+used for the USB2000 data, we can translate the KAST pixels to wavelengths.
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/fig8_lab2.JPG" title="fig8" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 8:  Shows the emission spectrum of an Hg, He, and Cd Arc Lamp recorded by the KAST Spectrograph
+</div>
+
+To make the fit quick and efficient, we used the top 8 most intense peaks of the arc lamp
+emissions for our fit.
+We have centroid pixel values of 639, 949, 1059, 1256, 1371, 1638, 1982. These correspond to
+the wavelengths of 388.87, 404.66, 435.83, 467.82, 479.00, 508.58, 546.07 (nm). Using the least
+squares linear fitting method, we get our fit parameters equal to:
+
+𝑀 = 0. 1241 ± 0. 0023,
+𝑐 = 303. 893 ± 9. 382
+
+By multiplying the pixel values in each science frame by M and adding C to them, we can
+convert our datasets from intensity per pixel to intensity per wavelength. This also gives us a
+standard deviation of σ = 7. 686 pixels. Applying this fit to the pixel axis serves as conversion
+from wavelength to pixels with this relative error.
+
+<h2> 5 Discussion </h2>
+Once we apply the wavelength calibration to the spectral frames we are analyzing, we get a
+much clearer visualization of the data and can observe spectral features of the astronomical
+sources.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/fig9_lab2.JPG" title="fig9" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 9: (Top) Shows the spectrum of b160.fits (Fiege 110). (Bottom) shows the spectrum of the b156.fits file (BD+15233)
+</div>
+From the spectral lines present in BD+15233, we find that the peak spectral emissions occur
+around 300 ± 20𝑛𝑚. From this, we find using wein’s displacement law λ(max) = b/T_eff where
+b=2898 um that the effective temperature for BD+15233 is approximately ~ 9660 ± 600𝐾. By
+matching this calculated effective temperature to the temperature ranges of different spectral
+classes shown in appendix 6.4, we see that BD+15 233 is of the spectral class A. However, upon
+finding experimental results of the stellar classification of F0. The spectrum likely has a different
+observed peak of spectrum here because we did not average all pixel columns of the detector to
+get the clearest possible signal of our dataset.
+
+From the spectral emissions of Fiege 110 (b160), we can see clearly that the peak of spectral
+emissions is λ(max) < 110nm. From this, we have a minimum effective temperature for Fiege
+using wein’s displacement law of T_eff(min) = 26350K . From this we see that Fiege is an
+extremely hot star that must be an O type star because of its immense heat. Experimental
+research confirms this assessment of Fiege 110’s spectral classification.
+
+From these results, we can conclude that spectroscopy allowed us to be able to find effective
+temperatures of stellar bodies from observing their emission spectrum and converting it to a
+intensity vs wavelength plot. While our results were not entirely accurate of actual physical
+observations, they were within the general region of the actual observed values of effecting
+temperature and maximum intensity wavelength. This method allows us to effectively classify
+stellar bodies from emission spectrums.
+
+
+<h2> 6 Appendix </h2>
+<h4> 6.1 Datasets </h4>
+For the datalog of used KAST data visit Shane Data Repository, 2013/10/26
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/fig1_lab2.JPG" title="fig1" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<h4> 6.2 Ocean Optics USB 2000 Spectrometer </h4>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/fig2_lab2.JPG" title="fig2" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 2:  Shows an internal layout of the USB 2000 Spectrometer with the following components:
+    (1) Initial Aperture Lens, (2) Slit, (3) Optical Filter, (4) Collimating Mirror,
+    (5) Diffraction Grating, (6) Focusing Mirror, (7) Lens to focus light for detectors,
+    (8) Detectors. The incident and diffracted angles are shown, α, β respectively.
+    These images were obtained from the USB 2000 Operating Instructions from Ocean Optics
+</div>
+
+<h4> 6.3 KAST Double Spectrograph </h4>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/fig3_lab4.JPG" title="fig3" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 3: Shows the technical layout of the KAST double spectrograph
+</div>
+
+<h4> 6.4 Spectral Classes Table </h4>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/fig10_lab4.JPG" title="fig10" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
