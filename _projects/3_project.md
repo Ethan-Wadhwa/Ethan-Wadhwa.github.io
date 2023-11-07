@@ -16,7 +16,7 @@ The second dataset was from the KAST spectrometer, a detector in the Shane teles
 Lick Observatory. We use the handheld spectrograph dataset to develop an algorithm to find the
 centroids of the emission spectrum in order to relate observed emission spectra to the pixel value
 of the detection. Using the least squares linear fitting algorithm, we find a wavelength resolution
-for both spectrographs with an error of σ =. Using these measurements and algorithms, we
+for both spectrographs with an error of σ = 7.686 pixels. Using these measurements and algorithms, we
 characterize the chemical composition of several stars from their observed spectra to find their
 spectral classification.
 </div>
