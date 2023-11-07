@@ -371,7 +371,7 @@ For the datalog of used KAST data visit Shane Data Repository, 2013/10/26
 <h4> 6.3 KAST Double Spectrograph </h4>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/fig3_lab4.JPG" title="fig3" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/fig3_lab2.JPG" title="fig3" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -381,6 +381,6 @@ For the datalog of used KAST data visit Shane Data Repository, 2013/10/26
 <h4> 6.4 Spectral Classes Table </h4>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/fig10_lab4.JPG" title="fig10" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/fig10_lab2.JPG" title="fig10" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
